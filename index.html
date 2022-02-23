@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HomeSweet</title>
+    <!--CSS-->
+    <link rel="stylesheet" href="CSS/Estilo.css">
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    
+  <ul class="nav-Desktop">
+
+    <li class="Selecionado"><span><a href="#Primeira1">Sobre</a></span></li>
+    <li><span><a href="#Titulo-Pesquisa">Quero Comprar</a></span></li>
+    <li><span><a href="#Conteudo-Contato">Contato</a></span></li>
+
+  </ul>
+  
+  <section class="Cabecalho-Master"><!--Abrindo sessao cabeçalho-->
+
+    <header><!--Abrindo container-->
+
+        <div id="Container1">
+
+          <div id="Logo"></div>
+
+          <div class="Mennu">
+
+            <nav class="Desktop">
+
+              <button class="Menu-Mobile">&#9776;</button> <!-- Incluindo ícone menu hamburguer -->
+              
+                <ul>
+
+                  <li class="Selecionado"><span><img src="IMG/Icones/iconsobre.png"><a href="#Primeira1">Sobre</a></span></li>
+                  <li><span><a href="#Titulo-Pesquisa"><img src="IMG/Icones/querocom.png">Quero Comprar</a></span></li>
+                  <li><span><a href="#Conteudo-Contato"><img src="IMG/Icones/telefone.png">Contato</a></span></li>
+
+                </ul>
+
+              </nav>
+
+        </div>
+
+        <nav class="Mobile">
+          <h3><i class="fa fa-bars" style="margin-top: 20px; margin-left: 40px;"></i></h3>
+       </nav>
+
+          <div class="clear"></div><!--Abrindo uma div clear para elementos flutuantes-->
+
+        </div>
+
+    </header><!--fechando contaienr-->
+
+    <div class="Conteudo-Cabecalho">
+
+      <div class="Container">
+
+        <div class="Primeira"><!--Abrindo primeria-->
+
+          <h1>HomeSweet Negócios Imobiliários</h1>
+          <h2>A melhor imobiliária de São Paulo e região</h2>
+          <a href="#Primeira1"><p>conhecer</p></a>
+            
+        </div><!--fechando primeira-->
+
+        <div class="clear"></div>
+
+      </div>
+
+    </div>
+
+  </section><!--Fechando sessao cabeçalho-->
+
+  <section class="Conteudo-Principal"><!--Abrindo sessao conteudo principal-->
+
+    <div class="Conteudo"><!--Abrindo div conteudo-->
+
+      <div id="Primeira1"><!--Abrindo primeria-->
+
+        <a href="#Primeira1"><h2>Quem Somos ?</h2></a>
+        <p>
+          Somos especialistas na comercialização
+          de casas residenciais, apartamentos em
+          condomínio fechado de médio e alto padrão
+          e também atuamos com a locaçãoe administração
+          de imóveis. Nossa empresa foi fundada em 2019.
+        </p> 
+
+      </div><!--fechando primeira-->
+
+      <div class="Segunda"><!--Abrindo div para imagem do lado do paragrafo-->
+        <img src="IMG/capa.png"><!--Imagem de quem somos-->
+      </div><!--Fechando div para imagem -->
+
+      <div class="Terceira">
+        <h2>A Sweet tem opções para diferentes momentos e necessidades da vida.</h2>
+        <p>Você muda, a Sweet muda com você</p>
+      </div>
+
+      <div class="clear"></div>
+
+    </div><!--Fechando div conteudo-->
+
+  </section><!--Fechando sessao conteudo principal-->
+  
+
+    <section class="Missao"><!--Abrindo sesao da missao e valores-->
+        <div class="Container">
+
+            <div class="Missao1"><!--Abrindo visao-->
+                
+                <h2>Missão</h2>
+                <p>Ajudar nossos clientes a encontrar a casa
+                    dos seus sonhos. E nossos clientes  e os 
+                    nossos proprietários a realizar o melhor
+                     negócio de suas vidas .</p>
+
+            </div><!--Fechando visao-->
+            
+            <div class="Missao2"><!--Abrindo valores-->
+                <h2>Visão</h2>
+                <p> Valorizamos o relacionamento com todos 
+                    os nossos contatos, clientes, concorrência
+                    trabalhamos com honestidade,dedicação e
+                     muito respeito.</p>
+            </div><!--Fechando valores-->
+            
+            <div class="clear"></div>
+        </div> 
+    </section><!--Fechando sesao da missao e valores-->
+
+    <section class="Depoiment">
+
+        <div class="Depoimentos" id="Carrosel-Desk">
+
+          <hr>
+
+            <h2>Depoimentos<i class="fa fa-star" style="padding-left: 10px; padding-right: 5px;"></i><!--Estilizando  os icones-->
+              <i class="fa fa-star" style="padding-right: 10px;"></i><i class="fa fa-star"></i></h2>
+
+            <div id="demo" class="carousel slide" data-ride="carousel">
+
+                <!-- Indicadores -->
+                <ul class="carousel-indicators">
+                  <li data-target="#demo" data-slide-to="0" class="active"></li>
+                  <li data-target="#demo" data-slide-to="1"></li>
+                  <li data-target="#demo" data-slide-to="2"></li>
+                  <li data-target="#demo" data-slide-to="3"></li>
+                </ul>
+                
+                <!-- Imagnes para o slides Carrousel -->
+                <div class="carousel-inner"><!-- 5 imagens sobre depoimentos-->
+                  <div class="carousel-item active">
+                    <img src="IMG/Depoimentos/1depoimento.png">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="IMG/Depoimentos/depoimento2.png">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="IMG/Depoimentos/2depoimento.png">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="IMG/Depoimentos/depoimento3.png">
+                  </div>
+
+                     <!--Controles-->
+                    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+              </div>
+             </div>
+
+             <div class="Depoimentos" id="Carrosel-Mobile">
+
+              <hr>
+    
+                <h2>Depoimentos<i class="fa fa-star" style="padding-left: 10px; padding-right: 5px;"></i><!--Estilizando  os icones-->
+                  <i class="fa fa-star" style="padding-right: 10px;"></i><i class="fa fa-star"></i></h2>
+    
+                <div id="demo" class="carousel slide" data-ride="carousel">
+    
+                    <!-- Indicadores -->
+                    <ul class="carousel-indicators">
+                      <li data-target="#demo" data-slide-to="0" class="active"></li>
+                      <li data-target="#demo" data-slide-to="1"></li>
+                      <li data-target="#demo" data-slide-to="2"></li>
+                      <li data-target="#demo" data-slide-to="3"></li>
+                    </ul>
+                    
+                    <!-- Imagnes para o slides Carrousel -->
+                    <div class="carousel-inner"><!-- 5 imagens sobre depoimentos-->
+                      <div class="carousel-item active">
+                        <img src="IMG/Depoimentos/1depoimento.png">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="IMG/Depoimentos/depoimento2.png">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="IMG/Depoimentos/2depoimento.png">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="IMG/Depoimentos/depoimento3.png">
+                      </div>
+    
+                         <!--Controles-->
+                        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                  </div>
+                 </div>
+    </section>
+
+    <div class="Clear"></div>
+
+    <section class="Comprar"><!--Abrindo sessao comprar-->
+        <div class="Conteudo-Comprar">
+
+            <div class="Container">
+
+                <div id="Titulo-Pesquisa"><!--Abrindo linkagem-->
+
+                    <h1><a href="#Titulo-Pesquisa">Encontre Agora seu Imovél</a></h1>
+                    
+                    <form class="pesquisa" action="/cotia.html">
+                        <input type="text" placeholder="Pesquise uma cidade..." name="search" >
+                        <a href="cotia.html"><i class="fa fa-search"></i></a>
+                    </form>
+                    
+                    
+                </div><!--fechando primeira-->
+
+                <div class="clear"></div>
+
+            </div>
+
+        </div>
+    </section><!--Fechando sessao comprar-->
+
+    <section class="Sobre"><!--Abrindo sesso sobre-->
+
+        <div class="Container"><!--Abrindo container-->
+
+            <div class="Titulo">
+
+                <h2>Está indeciso no que deve comprar ?<br>
+                Temos várias possibilidades para você comprar seu Imovél dos sonhos com preços ótimos !</h2>
+            </div>
+
+            <div class="Sobre-Container">  
+             
+                <div id="demo" class="carousel slide" data-ride="carousel" style="margin-left: -20px; width: 100%;" >
+                    <!--Indicadores-->
+                    <ul class="carousel-indicators">
+                      <li data-target="#demo" data-slide-to="0" class="active"></li>
+                      <li data-target="#demo" data-slide-to="1"></li>
+                      <li data-target="#demo" data-slide-to="2"></li>
+                    </ul>
+
+                     <!-- Imagnes para o slides Carrousel -->
+                    <div class="carousel-inner">
+                      <div class="carousel-item active"><!-- 3 imagens de apartamentos-->
+                        <img src="IMG/Comprar/apartamento1.png" >
+                        <div class="carousel-caption">
+                        </div>   
+                      </div>
+                      <div class="carousel-item">
+                        <img src="IMG/Comprar/apartamento2.png">
+                        <div class="carousel-caption">
+                        </div>   
+                      </div>
+                      <div class="carousel-item">
+                        <img src="IMG/Comprar/apartamento3.png">
+                        <div class="carousel-caption">
+                        </div>   
+                      </div>
+                    </div>
+                    <!--Controles-->
+                    <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                      <span class="carousel-control-prev-icon"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#demo" data-slide="next">
+                      <span class="carousel-control-next-icon"></span>
+                    </a>
+                  </div>
+            </div>
+
+            <div class="Sobre-Container-Texto"><!--Titulo sobre apartamentos-->
+                <h2>O que acha de um Apartamento ?</h2>
+                <p>Realizar boa parte das atividades de lazer 
+                sem sair de casa, como ir à academia, entreter
+                 as crianças ou organizar comemorações, é 
+                 muito mais cômodo e barato.
+                 Além disso, a infraestrutura entregue nas áreas de lazer dos empreendimentos mais novos é mais moderna.
+                </p>
+            </div><!-- FechandoTitulo sobre apartamentos-->
+            
+        </div><!--Fechando container-->
+
+        <div class="clear"></div>
+
+        <div class="Container"><!--Abrindo container-->
+
+
+            <div class="Sobre-Container2">
+             
+                <div id="demo" class="carousel slide" data-ride="carousel" style="margin-left: -20px; width: 110%;">
+                   <!--Indicadores-->
+                    <ul class="carousel-indicators">
+                      <li data-target="#demo" data-slide-to="0" class="active"></li>
+                      <li data-target="#demo" data-slide-to="1"></li>
+                      <li data-target="#demo" data-slide-to="2"></li>
+                    </ul>
+                    <!-- Imagnes para o slides Carrousel -->
+                    <div class="carousel-inner"><!-- 3 imagens de casas-->
+                      <div class="carousel-item active">
+                        <img src="IMG/Comprar/condomino1.png" >
+                        <div class="carousel-caption">
+                        </div>   
+                      </div>
+                      <div class="carousel-item">
+                        <img src="IMG/Comprar/condominio2.png">
+                        <div class="carousel-caption">
+                        </div>   
+                      </div>
+                      <div class="carousel-item">
+                        <img src="IMG/Comprar/condominio3.png">
+                        <div class="carousel-caption">
+                        </div>   
+                      </div>
+                    </div>
+                    <!--Controles-->
+                    <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                      <span class="carousel-control-prev-icon"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#demo" data-slide="next">
+                      <span class="carousel-control-next-icon"></span>
+                    </a>
+                  </div>
+            </div>
+            <div class="Sobre-Container-Texto2"><!--Titulo sobre casas em condominio-->
+                <h2>Já pensou em ter uma casa em condominio ?</h2>
+                <p>Os condomínios fechados são mais 
+                 seguros do que bairros abertos,<br> pois 
+                 geralmente têm diversos recursos de segurança.
+                 Dentro do <br>condomínio, os moradores e visitantes têm
+                  a impressão de estarem<br> em uma pequena cidade, 
+                  com ruas bem cuidadas e arborizadas.
+                </p>
+            </div><!-- Fechando Titulo sobre casas em condominio-->
+            <div class="clear"></div>
+        </div><!--Fechando container-->
+    </section><!--Fechando sessao sobre-->
+
+
+
+    <section class="Contato"><!--Abrindo sesao contato-->
+      <div id="Conteudo-Contato"><!--div para colocar imagem de fundo do contato-->
+        <div class="clear"></div>
+      </div>
+
+      <div class="Titulo-contato"><!--Abrindo titulo do contato-->
+        <h2>Preencha o formulário abaixo com o seus dados e selecione o perfil do imóvel que você procura !<br>
+          E sempre que tiver uma oferta e nosso cadastro atender a está qualificação lhe informaremos.</h2>
+      </div>
+
+
+      <form class="Contato"><!--Abrindo Formulario-->
+        <div class="CorFundo"><!--Abrindo a cor do fundo do formulario-->
+          <div class="Titulo-Dados">
+            <h2>Preencha seus dados abaixo<i class="fa fa-arrow-circle-down" style="padding-left: 2%; color: #896405; font-size: 40px;"></i></h2></i> <!--Abrindo um titulo para meu formulario-->
+              <br><br>
+          
+              <div class="form-group"><!--Abrindo nome-->
+                <i class="fa fa-user icon" style="padding-right: 6px; color: #896405; font-size: 40px;"></i>
+                <input placeholder="Nome Completo" type="text" required />
+  
+              </div>
+  
+              <div class="form-group"><!--Abeindo telefone-->
+                <i class="fa fa-phone" style="padding-right: 6px; color: #896405; font-size: 40px;"></i>
+                <input placeholder="Telefone" type="text" required/>
+              
+              </div>
+  
+              <div class="form-group"><!--Abrindo email-->
+                <i class="fa fa-envelope icon" style="padding-right: 6px; color: #896405; font-size: 30px;"></i>
+                <input  placeholder="Email" type="text" required/>
+              
+              </div>
+
+              
+              <h3>Selecione os tipos de imóveis desejados<i class="fa fa-check-square" style="padding-left: 2%; color: #896405; font-size: 40px;"></i></h3>
+
+              <div class="Container-Contato"><!--Abrindo div para selecionar o tipo-->
+
+                <div class="Selecionar"><!--Abrindo div selecionar-->
+                  
+                  <h4>Casa:</h4><!--Titulos tipo de imovel-->
+                  <label class="Container-Contato">Residencial
+                    <input type="checkbox" ><!--abrindo a caixa-->
+                    <span class="checkmark"></span><!--Abrindo o span para marcar-->
+                  </label>
+                  <label class="Container-Contato">Condominio 
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                  </label>
+                  <label class="Container-Contato">Sobrado
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                  </label>
+                </div><!--Abrindo div selecionar-->
+
+
+                <div class="Seleciona1"><!--Abrindo div selecionar1-->
+                  <h4>Apartamento:</h4><!--Titulos tipo de imovel-->
+                  <label class="Container-Contato">Padrão
+                    <input type="checkbox"><!--abrindo a caixa--> <!--checked="checked"-->
+                    <span class="checkmark"></span><!--Abrindo o span para marcar-->
+                  </label>
+                  <label class="Container-Contato">Triplex
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                  </label>
+                  <label class="Container-Contato">Cobertura
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                  </label>
+                  <label class="Container-Contato">Kitnet
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                  </label>
+                  
+
+                </div><!--Abrindo div selecionar1-->
+
+              </div><!--Fecahndo div para selecionar o tipo-->
+
+
+              <div class="form-group"><!--abrindo -->
+  
+                <input class="Cadastrar" type="submit" value="Enviar"/>
+                
+              </div>
+
+            </div>
+          </div>
+
+      </form><!--Fechando formulario-->
+
+      <div class="clear"></div>
+
+  </section><!--Abrindo sesao contato-->    
+
+  <footer><!--Abrindo rodape-->
+  
+    <div class="endereco"><!--Abrindo div endereco-->
+
+      <img src="IMG/Icones/endereco.png">
+      
+      <p>Rua José de Almeida, 1090, Sala 06</p>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!
+      1d3656.360069278899!2d-46.848256885021755!3d-23.591416184668095!
+      2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x94cf
+      aa98c1ec5cb3%3A0x735b8a2fd3f338c5!2sSENAI%20Cotia%20-%20%22Ricar
+      do%20Lerner%22%20-%20R.%20Direita%2C%20955%20-%20Vila%20Santo%20
+      Ant%C3%B4nio%2C%20Cotia%20-%20SP%2C%2006708-280!3m2!1d-23.5914172!2d
+      -46.8460531!5e0!3m2!1spt-BR!2sbr!4v1637784956940!5m2!1spt-BR!2sbr" 
+      allowfullscreen="" loading="lazy" ></iframe>
+
+    </div><!--Fecahndo div endereco-->
+     
+    <div class="Container"><!--Abrindo div container-->
+
+      <div class="icones"><!--Abrindo icones redes sociais-->
+
+          <a href=""><i class="fa fa-instagram"  style="color: whitesmoke; font-size: 40px; padding: 18px;"></i></a>
+          <a href=""><i class="fa fa-facebook-f" style="color: whitesmoke; font-size: 40px; padding: 18px;"></i></a>
+          <a href=""><i class="fa fa-youtube"    style="color: whitesmoke; font-size: 40px; padding: 15px;"></i></a>
+
+      </div><!--Fechando icone redes sociais-->
+          
+    </div>
+
+    <div class="clear"></div>
+
+    <div class="direitos"><!--Abrindo div sobre os direitos autorais-->
+      
+      <p> <i class="fa fa-copyright" style="float: left; margin-left: 40%; padding-right: 5px; padding-top: 5px;"> Todos os direitos reservados - 2021</i> </p>
+
+    </div><!--Fecahndodiv sobre os direitos autorais-->
+
+  </footer><!--Fecahndo rodape-->
+
+   <!--Abaixo JavaScript que faz o botao mobile funcionar-->
+
+
+   <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+   <script type="text/javascript">
+
+       $('nav.Desktop a').hover(function(){
+           
+           $('nav.li').removeClass('selected');
+           $(this).parent().addClass('selected');
+
+       })
+
+       $('nav.Mobile h3').click(function(){
+
+           $('ul.nav-Desktop').slideToggle();
+
+       })
+
+   </script>
+
+    
+
+
+</body>
+</html>
